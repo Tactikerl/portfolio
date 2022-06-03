@@ -1,0 +1,11 @@
+.content_container {
+}
+
+.content_container img {
+  max-width: 50%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
