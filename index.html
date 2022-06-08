@@ -5,62 +5,127 @@
     <meta />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Portfolio: Karl-Morten Kvammen</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Karl Kvammen Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <main>
-      <header>
-        <h1>Portfolio</h1>
-        <p>This is a portfolio for my most recent projects.</p>
-      </header>
-      <div class="card_container">
-        <div>
-          <h2>About me</h2>
-          <img src="" alt="" />
+    <header>
+      <div class="logo">
+        <img src="" alt="" />
+      </div>
+      <button class="navi_toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav_list">
+          <li class="nav_item"><a href="#home" class="navi_link">Home</a></li>
+          <li class="nav_item">
+            <a href="#services" class="navi-link">My Skills</a>
+          </li>
+          <li class="nav_item">
+            <a href="#about" class="navi_link">About me</a>
+          </li>
+          <li class="nav_item">
+            <a href="#work" class="navi_link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Intrroduction -->
+    <section class="intro" id="home">
+      <h1 class="section_title section_title_intro">
+        Hi, I am <strong>Karl Kvammen</strong>
+      </h1>
+      <p class="section_subtitle section_subtitle_intro">Front-end student</p>
+      <img src="" alt="Picture of Karl Kvammen" />
+    </section>
+
+    <!-- My services-->
+    <section class="my_services" id="services">
+      <h2 class="section_title section_title_services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3></h3>
           <p></p>
         </div>
-        <div class="card">
-          <h3>Game Hub</h3>
+        <div class="service">
+          <h3></h3>
           <p></p>
-          <img
-            src="img/GameHubImage.PNG"
-            alt="Screenshot of the Game Hub home page"
-          />
-          <p>
-            For the online version of this project you can click
-            <a href="">here!</a>
-          </p>
-          <p>For the GitHub repo you can click <a href="">here!</a></p>
         </div>
-        <div class="card">
-          <h3>Beef & Brain</h3>
+        <div class="service">
+          <h3></h3>
           <p></p>
-          <img
-            src="img/ProjectExamImage.PNG"
-            alt="Screenshot of the Beef and Brain home page"
-          />
-          <p>
-            For the online version of this project you can click
-            <a href="">here!</a>
-          </p>
-          <p>For the GitHub repo you can click <a href="">here!</a></p>
-        </div>
-        <div class="card">
-          <h3>Community Science Museum</h3>
-          <p></p>
-          <img
-            src="img/SemesterProjectImage.PNG"
-            alt="Screenshot of the Community Science Museum home page"
-          />
-          <p>
-            For the online version of this project you can click
-            <a href="">here!</a>
-          </p>
-          <p>For the GitHub repo you can click <a href="">here!</a></p>
         </div>
       </div>
-    </main>
-    <footer></footer>
+      <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About Me -->
+    <section class="about_me" id="about">
+      <h2 class="section_title section_title_about">Who I am</h2>
+      <p class="section_subtitle section_subtitle_about"></p>
+
+      <div class="about_me_body">
+        <p></p>
+        <p></p>
+      </div>
+
+      <img src="" alt="" />
+    </section>
+
+    <!-- My Work-->
+    <section class="my_work" id="work">
+      <h2 class="section_title">My work</h2>
+      <p class="section_subtitle"></p>
+      <div class="portfolio">
+        <a href="" class="portfolio_item"
+          ><img src="img/portfolio_img01.PNG" alt="" class="portfolio_img"
+        /></a>
+      </div>
+      <div class="portfolio">
+        <a href="" class="portfolio_item"
+          ><img src="img/portfolio_img02.PNG" alt="" class="portfolio_img"
+        /></a>
+      </div>
+      <div class="portfolio">
+        <a href="" class="portfolio_item"
+          ><img src="img/portfolio_img03.PNG" alt="" class="portfolio_img"
+        /></a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <a href="mailto:hello@karl.dev" class="footer_link">hello@karl.dev</a>
+      <ul class="social_list">
+        <li class="social_list_item">
+          <a href="" class="social_list_link">a</a>
+        </li>
+        <li class="social_list_item">
+          <a href="" class="social_list_link">b</a>
+        </li>
+        <li class="social_list_item">
+          <a href="" class="social_list_link">c</a>
+        </li>
+        <li class="social_list_item">
+          <a href="" class="social_list_link">d</a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
